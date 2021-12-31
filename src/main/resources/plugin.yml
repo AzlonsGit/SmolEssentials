@@ -1,0 +1,49 @@
+name: "AxiaEssentials"
+version: "1"
+main: "vb.$axiaessentials.PluginMain"
+api-version: 1.13
+author: "Azlons"
+commands:
+  gmc:
+    description: "Changes your gamemode into creative"
+    permission: "axia.gmc"
+    permission-message: "&cNo Permission!"
+    usage: "it's just /gmc, its not that hard"
+  gms:
+    description: "Changes your gamemode to survival"
+    permission: "axia.gms"
+    permission-message: "&cNo Permission!"
+    usage: "it's just /gms, its not that hard"
+  heal:
+    description: "Heal yourself"
+    permission: "axia.heal"
+    permission-message: "&cNo Permission!"
+    usage: "Use /heal"
+  feed:
+    description: "Make your hunger full"
+    permission: "axia.feed"
+    permission-message: "&cNo Permission"
+  damage:
+    aliases: [dmg]
+    description: "damage yourself"
+    permission: "axia.damage"
+    permission-message: "&cNo permission!"
+    usage: "use /damage or /dmg"
+  fly:
+    description: "Allows you to fly"
+    permission: "axia.fly"
+    permission-message: "&cNo Permission!"
+    usage: "/fly"
+permissions:
+  axia.gmc:
+    default: op
+  axia.gms:
+    default: op
+  axia.heal:
+    default: op
+  axia.feed:
+    default: op
+  axia.damage:
+    default: op
+  axia.fly:
+    default: op
